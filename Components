@@ -1,0 +1,14 @@
+/src
+ ├── /components
+ │    ├── Login.js
+ │    ├── Signup.js
+ │    ├── Dashboard.js
+ │    ├── AccountDetails.js
+ │    ├── TransferFunds.js
+ │    └── TransactionHistory.js
+ ├── /context
+ │    └── AuthContext.js
+ ├── /services
+ │    └── bankingService.js
+ ├── App.js
+ ├── index.js

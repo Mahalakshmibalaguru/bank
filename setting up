@@ -1,0 +1,3 @@
+npx create-react-app banking-app
+cd banking-app
+npm start

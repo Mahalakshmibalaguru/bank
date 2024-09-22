@@ -1,0 +1,21 @@
+// src/components/Dashboard.js
+import React, { useContext } from 'react';
+import { AuthContext } from '../context/AuthContext';
+import AccountDetails from './AccountDetails';
+import TransferFunds from './TransferFunds';
+import TransactionHistory from './TransactionHistory';
+
+const Dashboard = () => {
+  const { user } = useContext(AuthContext);
+
+  return (
+    <div>
+      <h1>Welcome, {user.email}</h1>
+      <AccountDetails />
+      <TransferFunds />
+      <TransactionHistory />
+    </div>
+  );
+};
+
+export default Dashboard;
